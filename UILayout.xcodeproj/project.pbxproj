@@ -16,6 +16,8 @@
 		C4B1E3C728255A3F00C70F0C /* UILayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1E3C628255A3F00C70F0C /* UILayoutTests.swift */; };
 		C4B1E3D128255A3F00C70F0C /* UILayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1E3D028255A3F00C70F0C /* UILayoutUITests.swift */; };
 		C4B1E3D328255A3F00C70F0C /* UILayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1E3D228255A3F00C70F0C /* UILayoutUITestsLaunchTests.swift */; };
+		C4B1E3E028255A8500C70F0C /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1E3DF28255A8500C70F0C /* MyProjectCard.swift */; };
+		C4B1E3E22825613B00C70F0C /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1E3E12825613B00C70F0C /* MyBasicCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C4B1E3CC28255A3F00C70F0C /* UILayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B1E3D028255A3F00C70F0C /* UILayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILayoutUITests.swift; sourceTree = "<group>"; };
 		C4B1E3D228255A3F00C70F0C /* UILayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4B1E3DF28255A8500C70F0C /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		C4B1E3E12825613B00C70F0C /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				C4B1E3B928255A3F00C70F0C /* Persistence.swift */,
 				C4B1E3BB28255A3F00C70F0C /* UILayout.xcdatamodeld */,
 				C4B1E3B628255A3F00C70F0C /* Preview Content */,
+				C4B1E3DF28255A8500C70F0C /* MyProjectCard.swift */,
+				C4B1E3E12825613B00C70F0C /* MyBasicCard.swift */,
 			);
 			path = UILayout;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 			files = (
 				C4B1E3BA28255A3F00C70F0C /* Persistence.swift in Sources */,
 				C4B1E3BD28255A3F00C70F0C /* UILayout.xcdatamodeld in Sources */,
+				C4B1E3E028255A8500C70F0C /* MyProjectCard.swift in Sources */,
 				C4B1E3B328255A3E00C70F0C /* ContentView.swift in Sources */,
+				C4B1E3E22825613B00C70F0C /* MyBasicCard.swift in Sources */,
 				C4B1E3B128255A3E00C70F0C /* UILayoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
