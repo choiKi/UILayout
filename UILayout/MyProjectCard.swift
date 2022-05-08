@@ -10,6 +10,8 @@ import SwiftUI
 
 struct MyProjectCard : View {
     
+    @State var shouldShowAlert: Bool = false
+    
     var body : some View {
         
         VStack(alignment: .leading, spacing: 0) {
@@ -30,13 +32,25 @@ struct MyProjectCard : View {
                     .overlay(Circle().stroke(lineWidth: 2).foregroundColor(.white))
                 
                 Spacer()
-                Text("확인")
-                    .fontWeight(.bold)
-                    .frame(width: 80)
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(20)
+                
+                Button(action: {
+                    // 버튼의 기능
+                    print("버튼 클릭")
+                    self.shouldShowAlert = true
+                }){
+                    // button의 외형
+                    Text("확인")
+                        .fontWeight(.bold)
+                        .frame(width: 80)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(20)
+                }.alert(isPresented: $shouldShowAlert) {
+                    Alert(title: Text("확인!"))
+                }
+                
+                
             }
         }
         .padding()
