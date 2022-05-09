@@ -25,7 +25,10 @@ struct ContentView: View {
                         Image(systemName: "line.horizontal.3").font(.system(size: 30)).foregroundColor(.black)
                     }
                     Spacer()
-                    Image(systemName: "person.circle.fill").font(.system(size: 30))
+                    NavigationLink(destination: ProfileView()){
+                        Image(systemName: "person.circle.fill").font(.system(size: 30))
+                    }
+                    
                 }
                 .padding(.horizontal,20)
                 Divider()
