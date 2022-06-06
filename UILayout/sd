@@ -1,0 +1,44 @@
+//
+//  GeometryReader.swift
+//  UILayout
+//
+//  Created by 최기훈 on 2022/05/29.
+//
+
+import Foundation
+import SwiftUI
+
+struct MyGeometryReader : View {
+    var body: some View {
+        
+       GeometryReader { geometry in
+            
+            HStack(spacing: 0) {
+                    Text("A")
+                        .frame(width : 50)
+                        .background(Color.red)
+                    Text("B")
+                        .frame(width : 50)
+                        .background(Color.green)
+                    Text("C")
+                        .frame(width : 50)
+                        .background(Color.yellow)
+                }
+                .foregroundColor(Color.white)
+                .font(.largeTitle)
+            }
+        
+        }
+    
+        
+}
+
+struct MyPreviewProvider_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            MyGeometryReader()
+            MyGeometryReader()
+                .previewDevice("iPad Pro (11-inch) (3rd generation)")
+        }
+    }
+}

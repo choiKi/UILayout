@@ -46,7 +46,9 @@ struct ProfileView : View {
                         .font(.system(size: 20))
                         .foregroundColor(.black)
                 })
+            Spacer()
             }// VStack
+            .padding(.top, 40)
         }
         
     }
