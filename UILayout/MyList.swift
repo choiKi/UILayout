@@ -14,6 +14,8 @@ struct MyList: View {
         if #available(iOS 14.0, *) {
             
         }else {
+            
+            
             UITableView.appearance().tableFooterView = UIView()
         }
         

@@ -76,12 +76,14 @@ struct MyCustomTabView : View{
             ZStack (alignment: .bottom){
                 self.changeMyView(tabIndex: self.tabIndex)
                 
+                
                 withAnimation {
                     Circle()
                         .frame(width: 90, height: 90)
                         .offset(x: self.calCiclePosition(tabIndex: self.tabIndex, geometry: geometry) ,y: 12)
                         .foregroundColor(self.circleColorChange(tabIndex: self.tabIndex))
                 }
+                 
             
                     
                 HStack(spacing: 0){

@@ -23,7 +23,7 @@ struct MyView: View {
                 .foregroundColor(.white)
                 .font(.system(size: 30))
         }
-        // .animation(.none)
+        .animation(.none)
     }
     
 }

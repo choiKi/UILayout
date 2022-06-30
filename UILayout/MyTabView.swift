@@ -15,7 +15,7 @@ struct MyTabView : View {
                 Color.red
                 Color.blue
                 Color.green
-                Color.yellow
+                Color.brown
             }
             .tabViewStyle(PageTabViewStyle())
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
